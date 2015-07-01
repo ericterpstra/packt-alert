@@ -6,11 +6,14 @@ Respond to the text/sms with the special keyword (default is PACKT) and the app 
 
 Probably. No guarantees.
 
+Also, this probably violates some sort of licensing terms of agreement or something with PacktPub. So don't use it. It is for educational purposes only. Really, it is.  I made it to play around with Node, Nightmare.js, and the Twilio API.
+
 ##Requirements
 
 * A valid PacktPub.com account (free)
 * A Twilio Account with some credits added (not free)
 * A web server (not free) or a computer running ngrok (free)
+* PhantomJS installed on your system (free)
 
 ##Installation
 
@@ -18,10 +21,11 @@ Clone this repo onto a publicly reachable server.
 
 `git clone https://github.com/ericterpstra/packt-alert.git`
 
-Copy .env.sample to .env
+Install node modules, then copy .env.sample to .env
 
 ```
 cd packt-alert
+npm install
 cp .env.sample .env
 ```
 
