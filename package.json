@@ -1,0 +1,17 @@
+{
+  "name": "packt-free-book-alert",
+  "version": "1.0.0",
+  "description": "Get PacktPub Free e-Book Alerts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Terpstra",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "nightmare": "^1.8.2",
+    "node-schedule": "^0.2.9",
+    "twilio": "^2.2.1"
+  }
+}
