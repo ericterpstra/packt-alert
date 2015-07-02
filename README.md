@@ -33,7 +33,7 @@ Edit the .env file with the details of your PacktPub.com account, Twilio Account
 
 Run the app with `node index.js` (or use PM2 or forever or whatever process manager you want)
 
-Log into Twilio and set up a phone number to accept SMS request at the URL of your node app. If you need instructions, go to [this article](https://www.twilio.com/docs/quickstart/php/sms/hello-monkey). 
+Log into Twilio and set up a phone number to accept SMS request at the URL of your node app. The default port for the node app is 3000, but this can be changed in the .env file.  Also, the Twilio URL must have the path `/packtalert` appended to the domain/ip.  For example, an acceptable URL would be `http://mynodeapp.io:3000/packtalert`.  If you need instructions on where to put the URL in Twilio, go to [this article](https://www.twilio.com/docs/quickstart/php/sms/hello-monkey). 
 
 If you are using ngrok, use this guide: [Test Your Webhooks Locally with ngrok](https://www.twilio.com/blog/2013/10/test-your-webhooks-locally-with-ngrok.html)
 
